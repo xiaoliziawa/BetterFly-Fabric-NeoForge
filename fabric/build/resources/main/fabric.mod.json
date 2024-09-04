@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "betterfly",
+  "version": "1.0",
+  "name": "BetterFly",
+  "description": "It's a flight mod
+Players can type /flying
+to enable or disable the flying.",
+  "authors": [
+    "TYX_CnJiu"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/untitled2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tyxcnjiu.main.betterfly.Fabric"
+    ],
+    "client": [
+      "com.tyxcnjiu.main.betterfly.client.FabricClient"
+    ]
+  },
+  "mixins": [
+    "untitled2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.4",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=13.0.6",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

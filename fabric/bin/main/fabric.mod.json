@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "untitled2",
+  "version": "${version}",
+  "name": "untitled2",
+  "description": "This a test mod",
+  "authors": [
+    "TYX_CnJiu"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/untitled2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tyxcnjiu.main.untitled2.fabric.Untitled2Fabric"
+    ],
+    "client": [
+      "com.tyxcnjiu.main.untitled2.fabric.client.Untitled2FabricClient"
+    ]
+  },
+  "mixins": [
+    "untitled2.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.4",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "architectury": ">=13.0.6",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
