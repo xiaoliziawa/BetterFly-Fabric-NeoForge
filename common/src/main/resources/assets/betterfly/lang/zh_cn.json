@@ -1,0 +1,12 @@
+{
+  "config.betterfly.title": "BetterFly 配置",
+  "config.betterfly.instant_stop": "急停: %s",
+  "config.betterfly.instant_stop.on": "开启",
+  "config.betterfly.instant_stop.off": "关闭",
+  "config.betterfly.no_mining_penalty": "移除挖掘惩罚: %s",
+  "config.betterfly.no_mining_penalty.on": "开启",
+  "config.betterfly.no_mining_penalty.off": "关闭",
+  "config.betterfly.done": "完成",
+  "command.betterfly.flying.enabled": "飞行模式已开启",
+  "command.betterfly.flying.disabled": "飞行模式已关闭"
+} 

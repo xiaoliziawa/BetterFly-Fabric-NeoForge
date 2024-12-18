@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "betterfly",
+  "version": "${version}",
+  "name": "betterfly",
+  "description": "A Mod that makes it easy for players to fly",
+  "authors": [
+    "PrizOwO"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/betterfly/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.prizowo.betterfly.fabric.BetterflyFabric"
+    ],
+    "client": [
+      "net.prizowo.betterfly.fabric.client.BetterflyFabricClient"
+    ],
+    "modmenu": [
+      "net.prizowo.betterfly.fabric.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "betterfly.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

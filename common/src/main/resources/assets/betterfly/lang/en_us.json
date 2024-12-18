@@ -1,0 +1,12 @@
+{
+  "config.betterfly.title": "BetterFly Configuration",
+  "config.betterfly.instant_stop": "Instant Stop: %s",
+  "config.betterfly.instant_stop.on": "ON",
+  "config.betterfly.instant_stop.off": "OFF",
+  "config.betterfly.no_mining_penalty": "Remove Mining Penalty: %s",
+  "config.betterfly.no_mining_penalty.on": "ON",
+  "config.betterfly.no_mining_penalty.off": "OFF",
+  "config.betterfly.done": "Done",
+  "command.betterfly.flying.enabled": "Flying mode enabled",
+  "command.betterfly.flying.disabled": "Flying mode disabled"
+} 
