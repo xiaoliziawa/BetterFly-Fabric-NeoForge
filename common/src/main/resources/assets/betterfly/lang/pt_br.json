@@ -1,0 +1,12 @@
+{
+  "config.betterfly.title": "Configuração do BetterFly",
+  "config.betterfly.instant_stop": "Parada Instantânea: %s",
+  "config.betterfly.instant_stop.on": "Ligado",
+  "config.betterfly.instant_stop.off": "Desligado",
+  "config.betterfly.no_mining_penalty": "Remover Penalidade de Mineração: %s",
+  "config.betterfly.no_mining_penalty.on": "Ligado",
+  "config.betterfly.no_mining_penalty.off": "Desligado",
+  "config.betterfly.done": "Concluído",
+  "command.betterfly.flying.enabled": "Modo vôo ativado",
+  "command.betterfly.flying.disabled": "Modo vôo desativado"
+} 
